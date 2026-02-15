@@ -247,7 +247,7 @@ The project achieved its objective of building an automated agentic AI trading s
 
 ### Derek Nigten
 
-![Photo Derek Nigten](IMG_2419.JPG)
+<img src="images/IMG_2419.jpeg" width="200">
 
 I am a final-year Bachelor’s student in Econometrics at Vrije Universiteit Amsterdam, currently seeking summer opportunities in trading or risk management. My interest in financial markets was sparked by machine learning coursework and managing my own stock portfolio, which motivated me to apply mathematical and data-driven models to identify market opportunities. I am fluent in Python and highly motivated to continue developing and expanding my quantitative skill set.
 
