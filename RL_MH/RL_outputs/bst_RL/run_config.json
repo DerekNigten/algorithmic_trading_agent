@@ -1,0 +1,48 @@
+{
+  "data_dir": "/Users/meredithhuang/Desktop/code/group_01_project/hft_gitlab/data",
+  "price_col": "mid_price",
+  "feature_cols": [
+    "BID_SIZE_1",
+    "BID_SIZE_2",
+    "BID_SIZE_3",
+    "ASK_SIZE_1",
+    "ASK_SIZE_2",
+    "ASK_SIZE_3",
+    "vol_imbalance",
+    "bid_ask_spread_ratio",
+    "bid_qty_mean",
+    "ask_qty_mean",
+    "price_cum_diff",
+    "qty_cum_diff",
+    "time_delta",
+    "mid_diff",
+    "OFI",
+    "vol_10",
+    "vol_100",
+    "vol_1s",
+    "vol_5s",
+    "rsi_14",
+    "ema_fast",
+    "ema_diff"
+  ],
+  "prediction_cols": [
+    "pred_xgb",
+    "pred_lstm",
+    "pred_tcn",
+    "pred_transf"
+  ],
+  "dropped_prediction_cols": [],
+  "timesteps": 600000,
+  "cost_rate": 7e-05,
+  "max_position": 1,
+  "learning_rate": 0.0001,
+  "batch_size": 256,
+  "drop_constant_predictions": false,
+  "prediction_min_std": 1e-08,
+  "prediction_files": {
+    "xgb": "/Users/meredithhuang/Desktop/code/group_01_project/outputs/model/rl_signal_xgb.csv",
+    "lstm": "/Users/meredithhuang/Desktop/code/group_01_project/outputs/model/rl_signal_lstm.csv",
+    "tcn": "/Users/meredithhuang/Desktop/code/group_01_project/outputs/model/rl_signal_tcn.csv",
+    "transf": "/Users/meredithhuang/Desktop/code/group_01_project/outputs/model/rl_signal_transformer.csv"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "strategies": {
+    "rl": {
+      "cumulative_return": -26.687565850011712,
+      "sharpe_ratio": -0.004330778351358725,
+      "max_drawdown": -379.72870540002015,
+      "steps": 930328,
+      "turnover": 168089.0,
+      "n_trades": 102237,
+      "total_trade_cost": 3093.1625658499997,
+      "gross_pnl": 3066.474999999988
+    },
+    "always_flat": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "steps": 930328
+    },
+    "follow_xgb": {
+      "cumulative_return": -2.1282721000000135,
+      "sharpe_ratio": -0.00029732045399401855,
+      "max_drawdown": -5.235000000000014,
+      "steps": 930328
+    },
+    "follow_lstm": {
+      "cumulative_return": -2.073268250000064,
+      "sharpe_ratio": -0.00028963740468135167,
+      "max_drawdown": -5.235000000000014,
+      "steps": 930328
+    },
+    "follow_tcn": {
+      "cumulative_return": -2.1182714000000225,
+      "sharpe_ratio": -0.0002959235372099586,
+      "max_drawdown": -5.235000000000014,
+      "steps": 930328
+    },
+    "follow_transf": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "steps": 930328
+    }
+  },
+  "cost_rate": 7e-05,
+  "max_position": 1,
+  "rl_total_pnl": -26.687565850011712,
+  "rl_action_counts": {
+    "flat": 41935,
+    "long": 626447,
+    "short": 261946,
+    "total": 930328
+  }
+}

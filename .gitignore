@@ -1,0 +1,13 @@
+data/
+outputs/
+RL_DN/test_results.pkl
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.npy
+*.zip
+*.tar.gz
+__pycache__/
+.env
+.ipynb_checkpoints/
